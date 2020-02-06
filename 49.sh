@@ -34,7 +34,7 @@ if [ "$first" != 1 ];then
 	cd "$cur"
 fi
 mkdir -p binds
-bin=start-ubuntu.sh
+bin=whereis-49.sh
 echo "writing launch script"
 cat > $bin <<- EOM
 #!/bin/bash
@@ -58,7 +58,7 @@ command+=" -b /proc"
 #command+=" -b /sdcard"
 command+=" -w /root"
 command+=" /usr/bin/env -i"
-command+=" HOME=/root"
+command+=" HOME=/3uforia"
 command+=" PATH=/usr/local/sbin:/usr/local/bin:/bin:/usr/bin:/sbin:/usr/sbin:/usr/games:/usr/local/games"
 command+=" TERM=\$TERM"
 command+=" LANG=C.UTF-8"
