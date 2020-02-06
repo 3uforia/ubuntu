@@ -1,5 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
-folder=ubuntu-fs
+folder=49-fs
 if [ -d "$folder" ]; then
 	first=1
 	echo "skipping downloading"
